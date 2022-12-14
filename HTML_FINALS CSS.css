@@ -1,0 +1,17 @@
+.banner-area{
+    background-image: url(Home.jpeg);
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 15px 60px;
+}
+.menu{
+    
+}

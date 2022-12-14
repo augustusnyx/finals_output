@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <script src="java.js"></script> -->
+        <script src="https://fontawesome.com/icons"></script>
+        <link rel="stylesheet" href="HTML_1.css">
+        <link rel="icon" href="ICON.png" type="image/x-icon">
+        <title>Myself - AugustusNyx</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+            <a href="HTML_FINALS.html">
+                <img src="ICON.png" class="logo">
+            </a>
+                <h2>AugustusNyx</h2>
+                <nav>
+                    <ul>
+                        <li><a href="HTML_FINALS.html">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">MORE</a></li>
+                    </ul>
+                </nav>
+                <img src="DROPDOWN.png" class="menu-icon">
+        </div>
+        <div class="box">
+            <h1><b>PROFILE</b></h1>
+            <img src="AMIEL.jpg" alt="" class="box-img">
+            <h1>MANUEL AMIEL VILAR</h1>
+            <br>
+<hr>
+<button class="accordion">ABOUT ME</button>
+<div class="panel">
+    <p><b>Full Name:</b> Manuel Amiel Aruta Vilar</p>
+    <p><b>Date of Birth:</b> August 2, 2004</p>
+    <p><b>Birthplace:</b> Intramuros, Manila</p>
+    <p style="text-align: justify;"><b>Address:</b> Blk 8 Lot 11 Hemlock St., Breezewoods 1 Subd., Brgy. Mambog 2, Bacoor, Cavite</p>
+</div>
+<button class="accordion">OTHER INFORMATION</button>
+<div class="panel">
+    <p><b>Schools Attended:</b> 
+        <br>&#8226;Mother of Christ Montessori Integrated    
+        <br style="margin-left: 2px;">School
+        <br>&#8226;Manuel G. Araullo High School
+        <br>&#8226;Manila Tytana Colleges
+    </p>
+    <hr>
+    <p><b>Achievements:</b> 
+        <br>&#8226; Consistent Honors Student   
+        <br>&#8226; Class Valedictorian (Elementary)
+        <br>&#8226; Top 1 Over-All (High School)
+        <br>&#8226; Graduated with High Honors (Senior High School)
+        <br>&#8226; 1st PhilHealth National Quiz Bee - Division Level (Manila City) Champion
+        <br>&#8226; Equalizer Contests (Grade 7 and 9) - Division Level (Manila City) 1st Place
+    </p>
+    <hr>
+    <p><b>Interests and Hobbies:</b> 
+        <br>&#8226; Chemistry, Biology and Paleontology  
+        <br>&#8226; PLaying Sports (Badminton and Volleyball)
+        <br>&#8226; Playing Video Games (Genshin Impact, Grandchase and many more)
+        <br>&#8226; Singing and Dancing
+        <br>&#8226; Watching Anime & Dramas 
+        <br>&#8226; Reading Webnovels
+        <br>&#8226; Playing Piano (used to)
+        <br>&#8226; Sleeping
+    </p>
+    <hr>
+    <p><b>Life Quote:</b> </p>
+    <p style="text-align: center;">
+    <i>"Live your best, and act your best, and think your best each day, for there may be no tomorrows."</i>
+    </p>
+</div>
+<button class="accordion">CONTACT ME HERE</button>
+<div class="panel"><p>
+    <b>Facebook:</b>https://www.facebook.com/profile.php?id=100009014904351</p>
+    <p><b>Call or Message:</b>+699762628876</p></div>
+<hr>
+<br>
+<p style="text-align:center;">---PLAY ME---</p>
+<audio controls> 
+    <source src="file:///C:/Users/Amiel%20Vilar/Documents/HTML/BGM.mp3" type="audio/mp3"> 
+</audio>
+</div>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+</script>
+    </body>
+</html>
